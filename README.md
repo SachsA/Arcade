@@ -69,6 +69,7 @@ $ make games
 $ make graphicals
 
 #All the lib_arcade_[NAME_OF_THE_LIB].so are located in the ./lib folder (you have to compile them before, obviously).
+
 #All the lib_arcade_[NAME_OF_THE_GAME].so are located in the ./games folder (you have to compile them before, obviously).
 
 2) LAUNCH the Arcade
@@ -77,6 +78,7 @@ $ ./arcade ./lib_arcade_[NAME_OF_THE_LIB].so
 
 The program must take as a start up argument the graphics library to use initially !
 That means that this lib will load the menu of the arcade !
+
 Example : ./arcade ./lib_arcade_sdl2.so    -->    Will load the Arcade Menu with the SDL2.
 
 
@@ -84,8 +86,11 @@ Example : ./arcade ./lib_arcade_sdl2.so    -->    Will load the Arcade Menu with
 HOW TO PLAY:
 
 When you have launched it, you will load the Selection Menu:
+
 -> Choose your lib graphic and your game by moving with the 'ARROW UP' and the 'ARROW DOWN'.
+
 -> To change between games and libs just press 'RIGHT ARROW' or 'LEFT ARROW'.
+
 -> Once you have choose them, just press 'SPACE' to launch the game.
 
 -> Then, follow the instruction !
@@ -162,10 +167,12 @@ Documentation :
 
 If you want to know anything about : the structure of the Arcade, the Interface of our Games and our Graphics libraries, or even : how to make a lib ? (Games or Graphics) :
 We strongly suggest you to go to the ./doc folder, you will find a "Doc.pdf" file :
+
 -> This a document explaining how to implement new graphics libraries or game libraries compatible with our system !
 
 Furthermore you will also find :
 -> A class diagram for your program (Arcade_archi.mdj), featuring the relationships between classes and their public member functions (and some privates).
+
 -> An explanatory manual that accompanies our diagram and describes how procedures are linked in the program.
 
 
