@@ -132,7 +132,9 @@ Furthermore you will also find :
 DEVELOPERS of the project (Epitech's second year students):
 
 Alexandre Sachs : alexandre.sachs@epitech.eu
-Antoine Pelletant : antoine.pelletant@epitech.eu (The GROUP LEADER for our repository !)
+
+Antoine Pelletant : antoine.pelletant@epitech.eu
+
 Thomas Bleneau : thomas.bleneau@epitech.eu
 
 
@@ -140,8 +142,10 @@ Collaboration :
 
 We have made this project in collaboration with an other Epitech group, composed by :
 
-Kellian Cipierre : kellian.cipierre@epitech.eu (The GROUP LEADER for their repository !)
+Kellian Cipierre : kellian.cipierre@epitech.eu
+
 Martin Cotoni : martin.cotoni@epitech.eu
+
 Thomas Lombard : thomas.lombard@epitech.eu
 
 That collaboration, allowed us to make a common interface with them ! That means that our Arcade can launch their games and graphicals libraries, and vice versa.
