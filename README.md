@@ -14,23 +14,35 @@ If you want to build a library of a game or a graphical lib, please refer to our
 
 
 GRAPHIC LIBRARIES ALREADY IMPLEMENTED :
+
 Ncurses.
+
 Allegro.
+
 SDL2.
 
+
 Some ideas of graphic libraries :
+
 SFML, OpenGL, GTK+, Vulkan, NDK++... (And many more !)
+
 !!! Enjoy !!!
 
 
 
 GAMES ALREADY IMPLEMENTED :
+
 Pacman.
+
 Nibbler.
+
 SolarFox.
 
+
 Some ideas of  games:
+
 Qix, Centipede... (And many more !)
+
 !!! Enjoy !!!
 
 
@@ -81,44 +93,73 @@ When you have launched it, you will load the Selection Menu:
 
 !! GLOBALS COMMANDS !!
 In the Selection Menu :
+
 -> Press 'ARROW UP' : select the previous lib.
+
 -> Press 'ARROW DOWN' : select the next lib.
+
 -> Press 'ARROW LEFT' : select the other lib's category.
+
 -> Press 'ARROW RIGHT' : select the other lib's category.
+
 -> Press 'SPACE' : to confirm.
+
 
 In the Pause Menu :
+
 -> Press 'ARROW UP' : select the previous option.
+
 -> Press 'ARROW DOWN' : select the next option.
+
 -> Press 'SPACE' : to confirm.
 
+
 Switch between graphicals libraries :
+
 -> Press 'E' : Previous graphicals lib.
+
 -> Press 'Z' : Next graphicals lib.
 
+
 Return to the Selection Menu :
+
 -> Press 'ESCAPE'.
 
+
 Quit the Arcade :
+
 -> Press 'Q' / Press 'ESCAPE' when you are on the Selection Menu
 
 
+
 !! GAME'S COMMANDS !!
+
 On the Game :
+
 -> Press 'S' : restart the game.
+
 -> Press 'SPACE' : pause the game.
+
 -> Press 'ARROW UP' : move up.
+
 -> Press 'ARROW DOWN' : move down.
+
 -> Press 'ARROW LEFT' : move left.
+
 -> Press 'ARROW RIGHT' : move right.
 
+
 Switch between games libraries :
+
 -> Press 'A' : Previous game.
+
 -> Press 'Z' : Next game.
 
 
 
+
 Documentation :
+
 If you want to know anything about : the structure of the Arcade, the Interface of our Games and our Graphics libraries, or even : how to make a lib ? (Games or Graphics) :
 We strongly suggest you to go to the ./doc folder, you will find a "Doc.pdf" file :
 -> This a document explaining how to implement new graphics libraries or game libraries compatible with our system !
