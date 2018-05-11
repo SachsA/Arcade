@@ -1,199 +1,98 @@
-!!! Arcade !!!
-
-Epitech's Second Year Project:
-
-The goal of this project is to let the user choose between few libraries of games and graphics.
-The Arcade is a gaming platform which contains some games that you can play with. It allows the user to keep his high score for each game of this Arcade.
-One of the main feature is that you can, dynamically, change between graphicals libraries and games libraries.
-
-The games and the graphics must be dynamic libraries ! That means : they are loaded at run-time, and that they are shared libraries, and nothing in our program is a reference to one of this lib.
-So, if someone wants to build a game lib or a graphical lib, he can do it and it will be loaded by our Arcade ! The only thing to know is that, when you do a lib, YOU MUST build your library exactly like ours.
-
-If you want to build a library of a game or a graphical lib, please refer to our ./doc folder, which contains all you have to know.
-
-
-
-GRAPHIC LIBRARIES ALREADY IMPLEMENTED :
-
-Ncurses.
-
-Allegro.
-
-SDL2.
-
-
-Some ideas of graphic libraries :
-
-SFML, OpenGL, GTK+, Vulkan, NDK++... (And many more !)
-
-!!! Enjoy !!!
-
-
-
-GAMES ALREADY IMPLEMENTED :
-
-Pacman.
-
-Nibbler.
-
-SolarFox.
-
-
-Some ideas of  games:
-
-Qix, Centipede... (And many more !)
-
-!!! Enjoy !!!
-
-
-
-USAGE of the Arcade :
-
-1) MAKE
-
-!!! You have to make the Arcade !!!
-
--> To make all the libs and the core of the arcade just type :
-$ make
-
--> To remake all the lib :
-$ make re
-
--> To make just the core :
-$ make core
-
--> To make just the games :
-$ make games
-
--> To make just the graphicals libraries :
-$ make graphicals
-
-#All the lib_arcade_[NAME_OF_THE_LIB].so are located in the ./lib folder (you have to compile them before, obviously).
-
-#All the lib_arcade_[NAME_OF_THE_GAME].so are located in the ./games folder (you have to compile them before, obviously).
-
-2) LAUNCH the Arcade
-
-$ ./arcade ./lib_arcade_[NAME_OF_THE_LIB].so
-
-The program must take as a start up argument the graphics library to use initially !
-That means that this lib will load the menu of the arcade !
-
-Example : ./arcade ./lib_arcade_sdl2.so    -->    Will load the Arcade Menu with the SDL2.
-
-
-
-HOW TO PLAY:
-
-When you have launched it, you will load the Selection Menu:
-
--> Choose your lib graphic and your game by moving with the 'ARROW UP' and the 'ARROW DOWN'.
-
--> To change between games and libs just press 'RIGHT ARROW' or 'LEFT ARROW'.
-
--> Once you have choose them, just press 'SPACE' to launch the game.
-
--> Then, follow the instruction !
-
-
-!! GLOBALS COMMANDS !!
-In the Selection Menu :
-
--> Press 'ARROW UP' : select the previous lib.
-
--> Press 'ARROW DOWN' : select the next lib.
-
--> Press 'ARROW LEFT' : select the other lib's category.
-
--> Press 'ARROW RIGHT' : select the other lib's category.
-
--> Press 'SPACE' : to confirm.
-
-
-In the Pause Menu :
-
--> Press 'ARROW UP' : select the previous option.
-
--> Press 'ARROW DOWN' : select the next option.
-
--> Press 'SPACE' : to confirm.
-
-
-Switch between graphicals libraries :
-
--> Press 'E' : Previous graphicals lib.
-
--> Press 'Z' : Next graphicals lib.
-
-
-Return to the Selection Menu :
-
--> Press 'ESCAPE'.
-
-
-Quit the Arcade :
-
--> Press 'Q' / Press 'ESCAPE' when you are on the Selection Menu
-
-
-
-!! GAME'S COMMANDS !!
-
-On the Game :
-
--> Press 'S' : restart the game.
-
--> Press 'SPACE' : pause the game.
-
--> Press 'ARROW UP' : move up.
-
--> Press 'ARROW DOWN' : move down.
-
--> Press 'ARROW LEFT' : move left.
-
--> Press 'ARROW RIGHT' : move right.
-
-
-Switch between games libraries :
-
--> Press 'A' : Previous game.
-
--> Press 'Z' : Next game.
-
-
-
-
-Documentation :
-
-If you want to know anything about : the structure of the Arcade, the Interface of our Games and our Graphics libraries, or even : how to make a lib ? (Games or Graphics) :
-We strongly suggest you to go to the ./doc folder, you will find a "Doc.pdf" file :
-
--> This a document explaining how to implement new graphics libraries or game libraries compatible with our system !
-
-Furthermore you will also find :
--> A class diagram for your program (Arcade_archi.mdj), featuring the relationships between classes and their public member functions (and some privates).
-
--> An explanatory manual that accompanies our diagram and describes how procedures are linked in the program.
-
-
-
-DEVELOPERS of the project (Epitech's second year students):
-
-Alexandre Sachs : alexandre.sachs@epitech.eu
-
-Antoine Pelletant : antoine.pelletant@epitech.eu
-
-Thomas Bleneau : thomas.bleneau@epitech.eu
-
-
-Collaboration :
-
-We have made this project in collaboration with an other Epitech group, composed by :
-
-Kellian Cipierre : kellian.cipierre@epitech.eu
-
-Martin Cotoni : martin.cotoni@epitech.eu
-
-Thomas Lombard : thomas.lombard@epitech.eu
-
-That collaboration, allowed us to make a common interface with them ! That means that our Arcade can launch their games and graphicals libraries, and vice versa.
+<h3>Arcade</h3>
+<p>
+Arcade is a gaming platform: a program that lets the user choose a game to play and keeps a register of player scores.
+</p>
+<p>
+  The main feature of this project is to being able to change of game and/or graphic library anytime you want.
+  Two games and three graphical libraries are already implemented.
+  If you want to build your own just refer to the documentation (located in the doc folder)
+</p>
+ 
+<h2>Graphical libraries implemented:</h2>
+<ul style="list-style-type:none">
+  <li>Ncurses.</li>
+  <li>Allegro.</li>
+  <li>SDL2.</li>
+ </ul>
+ 
+<h2>Game libraries implemented:</h2>
+<ul style="list-style-type:none">
+  <li>Pacman (not working completly)</li>
+  <li>Nibbler</li>
+  <li>SolarFox</li>
+ </ul>
+ 
+<h3>Program compilation:</h3>
+<p>
+  <ul style="list-style-type:none">
+    <li>$ make -> Will commpile the entire project.</li>
+  <li>$ make core -> Only compile the core of the program.</li>
+  <li>$ make games -> Wil only compile the game libraries.</li>
+  <li>$ make graphicals -> Will only compile the graphical libraries.</li>
+    </ul>
+  #All the lib_arcade_[NAME_OF_THE_LIB].so are located in the ./lib folder.
+ 
+  #All the lib_arcade_[NAME_OF_THE_GAME].so are located in the ./games folder.
+ 
+  The games and lib folder will be created at compile time and erase with the fclean rule.
+</p>
+ 
+<h3>Launch the Arcade</h3>
+<p>
+  $ ./arcade ./lib_arcade_[NAME_OF_THE_LIB].so
+  The program need to be launch with a set graphical library of your choice.
+  Don't worry if you don't really like it you can change it when your game is launch.
+</p>
+ 
+<h3>How to play:</h3>
+<p>
+  Up and down arrow key let you go through the different elements and the left and right key change the menu you're in.
+  Once you've choose both your graphical and game library just press SPACE to start the game.
+</p>
+ 
+<h3>Global commands</h3>
+<p>
+  As i've said before, while you are playing, you can switch of game and graphical library whenever you want.
+  To do so some keys are binded:
+</p>
+<ul style="list-style-type:none">
+  <li>Switch between graphicals libraries:</li>
+  <ul style="list-style-type:none">
+    <li> 'E': Previous graphical library.</li>
+    <li> 'Z': Next graphical library.</li>
+  </ul>
+  <li>Leaving the game and the program:</li>
+  <ul style="list-style-type:none">
+    <il> Press 'ESCAPE' (while in game): Return to the Selection Menu.</li>
+    <il> 'Q' (while in game) or 'ESCAPE' (in the startup menu): Quit the program.</li>
+  </ul>
+</ul>
+ 
+<h3>Game command</h3>
+<ul style="list-style-type:none">
+  <li>Arrow key: Move your character.</li>
+  <li>'S': Restart your game.</li>
+  <li>'SPACE': To pause the game.</li>
+  <li>Switching game:</li>
+  <ul style="list-style-type:none">
+  <li>'A': Go to the previous game.</li>
+  <li>'Z': Go to the next game.</li>
+  </ul>
+</ul>
+ 
+<h3>Project realised by:</h3>
+<ul style="list-style-type:none">
+    <li>Alexandre Sachs : alexandre.sachs@epitech.eu</li>
+    <li>Thomas Bleneau : thomas.bleneau@epitech.eu</li>
+    <il>Antoine Pelletant : antoine.pelletant@epitech.eu</li>
+  </ul>
+  <br>
+<p>
+  One of the goal of the project was to be able to load libraries, whom had been coded by an other group of student.
+  To do so we've worked with:
+  <ul style="list-style-type:none">
+    <li>Kellian Cipierre : kellian.cipierre@epitech.eu</li>
+    <li>Martin Cotoni : martin.cotoni@epitech.eu</li>
+    <li>Thomas Lombard : thomas.lombard@epitech.eu</li>
+  </ul>
+</p>
