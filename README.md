@@ -63,8 +63,8 @@ Arcade is a gaming platform: a program that lets the user choose a game to play 
   </ul>
   <li>Leaving the game and the program:</li>
   <ul style="list-style-type:none">
-    <il> Press 'ESCAPE' (while in game): Return to the Selection Menu.</li>
-    <il> 'Q' (while in game) or 'ESCAPE' (in the startup menu): Quit the program.</li>
+    <li> Press 'ESCAPE' (while in game): Return to the Selection Menu.</li>
+    <li> 'Q' (while in game) or 'ESCAPE' (in the startup menu): Quit the program.</li>
   </ul>
 </ul>
  
@@ -84,7 +84,7 @@ Arcade is a gaming platform: a program that lets the user choose a game to play 
 <ul style="list-style-type:none">
     <li>Alexandre Sachs : alexandre.sachs@epitech.eu</li>
     <li>Thomas Bleneau : thomas.bleneau@epitech.eu</li>
-    <il>Antoine Pelletant : antoine.pelletant@epitech.eu</li>
+    <li>Antoine Pelletant : antoine.pelletant@epitech.eu</li>
   </ul>
   <br>
 <p>
