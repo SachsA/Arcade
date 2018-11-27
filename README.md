@@ -4,18 +4,19 @@
 
 [Arcade](https://en.wikipedia.org/wiki/Arcade_game) is a gaming platform: a program that lets the user choose a game to play and keeps a register of player scores.
 
-
-The **Bomberman** is composed with two main parts : the back developped in **C++** manage all the menus and the game engine; and the front developped with the **SFML (in C++ too)** display the game.
-
 ### Graphical libraries implemented:
-  *Ncurses*
-  *Allegro*
-  *SDL2*
+  -> *Ncurses*
+  
+  -> *Allegro*
+  
+  -> *SDL2*
 
 ### Game libraries implemented:
-  *Pacman (not working completly)*
-  *Nibbler*
-  *SolarFox* 
+  -> *Pacman (not working completly)*
+  
+  -> *Nibbler*
+  
+  -> *SolarFox* 
 
 
 ### Program compilation:
