@@ -25,7 +25,7 @@
   ```sh
         make
 ```
-  >  Will commpile the entire project.
+  >  Will compile the entire project.
 
   ```sh
         make core
@@ -49,7 +49,7 @@
  
   The games and lib folder will be created at compile time and erase with the fclean rule.
   
-  ### Program compilation:
+  ### Launching:
   ##### Linux:
 
   ```sh
@@ -60,7 +60,7 @@
 
 
 ## How to play:
-  ***Up and down arrow keys*** let you go through the different elements.
+  ***Up and down arrow keys*** let you go through the differents elements.
   ***Left and right arrow keys*** change the menu you're in.
   
   Once you've choose both your graphical and game library just press ***SPACE*** to start the game.
@@ -76,7 +76,7 @@
    ***Z***: Next graphical library.
 
   ##### Leaving the game and the program:
-   ***ESCPAE***: (while in game): Return to the Selection Menu.
+   ***ESCAPE***: (while in game): Return to the Selection Menu.
    ***Q***: (while in game) or ***ESCAPE*** (in the startup menu): Quit the program.
 
 #### Game commands
