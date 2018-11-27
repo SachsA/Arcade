@@ -43,9 +43,9 @@
   >  Will only compile the graphical libraries.
 
   
-  >> All the lib_arcade_[NAME_OF_THE_LIB].so are located in the ./lib folder.
+  > All the lib_arcade_[NAME_OF_THE_LIB].so are located in the ./lib folder.
  
-  >> All the lib_arcade_[NAME_OF_THE_GAME].so are located in the ./games folder.
+  > All the lib_arcade_[NAME_OF_THE_GAME].so are located in the ./games folder.
  
   The games and lib folder will be created at compile time and erase with the fclean rule.
   
@@ -61,6 +61,7 @@
 
 ## How to play:
   ***Up and down arrow keys*** let you go through the differents elements.
+  
   ***Left and right arrow keys*** change the menu you're in.
   
   Once you've choose both your graphical and game library just press ***SPACE*** to start the game.
@@ -73,19 +74,24 @@
 
   ##### Switch between graphicals libraries:
    ***E***: Previous graphical library.
+   
    ***Z***: Next graphical library.
 
   ##### Leaving the game and the program:
    ***ESCAPE***: (while in game): Return to the Selection Menu.
+   
    ***Q***: (while in game) or ***ESCAPE*** (in the startup menu): Quit the program.
 
 #### Game commands
   ***Arrow key***: Move your character.
+  
   ***S***: Restart your game.
+  
   ***SPACE***: To pause the game.
   
   ##### Switching game:
   ***A***: Go to the previous game.
+  
   ***Z***: Go to the next game.
 
 
@@ -96,8 +102,7 @@
 - **Thomas Bleneau : [thomas.bleneau@epitech.eu](https://github.com/TBlenoX)**
 
   One of the goal of the project was to be able to load libraries, whom had been coded by an other group of student.
-  #### To do so we've worked with:
- #### Project realised by:
+ #### To do so we've worked with:
 - **Kellian Cipierre : [kellian.cipierre@cipierre.eu]()**
 - **Martin Cotoni : [martin.cotoni@epitech.eu](https://github.com/cotonim)**
 - **Thomas Lombard : [thomas.lombard@epitech.eu]()**
