@@ -97,7 +97,7 @@
 
 
  #### Project realised by:
-- **Alexandre Sachs : [alexandre.sachs@epitech.eu](https://github.com/SachsA)**
+- **Alexandre Sachs : [alexandre.sachs@outlook.fr](https://github.com/SachsA)**
 - **Antoine Pelletant : [antoine.pelletant@epitech.eu](https://github.com/yabou)**
 - **Thomas Bleneau : [thomas.bleneau@epitech.eu](https://github.com/TBlenoX)**
 
